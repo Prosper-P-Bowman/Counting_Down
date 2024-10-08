@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    display: flex;
+}
+.parent{
+    position:relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+
+    /* align-self: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: center; */
+}
+.header{
+    border: solid;
+    text-align: center;
+    box-sizing: 0;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+h1{
+    color: black;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+.timeselector{
+    margin: 5px;
+    padding: 20px;
+    font-size: 50px;
+    color: red;
+}
+
