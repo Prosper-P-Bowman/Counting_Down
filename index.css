@@ -22,13 +22,93 @@
 } 
 
 /* Media Query for low resolution Tablets, Ipads */ 
-@media (min-width: 481px) and (max-width: 767px) {} 
+@media (min-width: 481px) and (max-width: 767px) {
+        body{
+        background-color: wheat;
+        margin: 0;
+        padding: 0;
+    }
+    .parent{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        text-align: center;
+        height: 50vh;
+        align-content: center;
+    } 
+    .header{
+        border-radius: 200px;
+        background-color: #64a9c72c;
+    }
+    .timeselector{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+    }
+} 
 
 /* Media Query for Tablets Ipads portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px) {} 
+@media (min-width: 768px) and (max-width: 1024px) {
+        body{
+        background-color: wheat;
+        margin: 0;
+        padding: 0;
+    }
+    .parent{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        text-align: center;
+        height: 50vh;
+        align-content: center;
+    } 
+    .header{
+        border-radius: 200px;
+        background-color: #64a9c72c;
+    }
+    .timeselector{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+    }
+} 
 
 /* Media Query for Laptops and Desktops */ 
-@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 1025px) and (max-width: 1280px) {
+        body{
+        background-color: wheat;
+        margin: 0;
+        padding: 0;
+    }
+    .parent{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        text-align: center;
+        height: 50vh;
+        align-content: center;
+    } 
+    .header{
+        border-radius: 200px;
+        background-color: #64a9c72c;
+    }
+    .timeselector{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+    }
+}
 
 /* Media Query for Large screens */ 
-@media (min-width: 1281px) {}
+@media (min-width: 1281px) {
+        body{
+        background-color: wheat;
+        margin: 0;
+        padding: 0;
+    }
+    .parent{
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        text-align: center;
+        height: 50vh;
+        align-content: center;
+    } 
+    .header{
+        border-radius: 200px;
+        background-color: #64a9c72c;
+    }
+    .timeselector{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+    }
+}
